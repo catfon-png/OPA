@@ -1,0 +1,23 @@
+.char-title{
+    text-align: center;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.char-topics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.char-individual-topic{
+    display: flex;
+    flex-direction: column;
+    inline-size: 150px;
+    text-align: center;
+}
+
+.char-img{
+    height: 100px;
+    width: 100px;
+    align-self: center;
+}

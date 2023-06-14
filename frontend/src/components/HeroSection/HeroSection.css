@@ -1,0 +1,39 @@
+.hero-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    height: 23rem;
+    align-items: center;
+
+}
+.hero-logo{
+    width: 300px;
+    height: 300px;
+}
+.hero-CTA{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+}
+
+.hero-CTA-btn {
+    background: #ffffff;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    width: 160px;
+    height: 38px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+
+.hero-CTA-btn:hover {
+    background: #c8c8c8;
+    transition: 0.5s;
+}
